@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Ex4_2_3 {
-    // Ex4_2_2をExtended for文を使って書き換える
+    // Ex4_2_2をEnhanced for文を使って書き換えてください。
     public static void main(String[] args) {
         ArrayList<String> list = new ArrayList<String>();
         Scanner scanner = new Scanner(System.in);
