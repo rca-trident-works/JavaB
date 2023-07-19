@@ -20,12 +20,11 @@ public class Ex4_4_1 {
                 System.out.println("最後が「ん」です。");
                 break;
             }
-            if (set.contains(s)) {
+            if (!set.add(s)) {
                 System.out.println("２度目です。");
                 break;
             }
             lastChar = s.charAt(s.length() - 1);
-            set.add(s);
         }
     }
 }
